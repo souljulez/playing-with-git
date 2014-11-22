@@ -1,13 +1,45 @@
-@import "_variables.scss";
+@import "reset";
+
+@import "variables";
 
 body {
 	font-family: $body-font;
+	background: #e8e8e8;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $header-font;
 }
 
+h1 {
+	font-size: $font-size * 2;
+	margin: 8px 0px;
+}
+
+h2 {
+	font-size: $font-size * 1.5;
+	margin: 5px 0px;
+}
+
 p {
 	color: #525252;
+	margin: 5px 0px;
+	a {
+		color: orange;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.content {
+	background: #fff;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 10px;
+	width: 960px;
+	@media screen and (max-width: 960px){
+		width: 90%;
+	}
 }
