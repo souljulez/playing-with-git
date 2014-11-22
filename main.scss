@@ -33,6 +33,10 @@ p {
 	}
 }
 
+.clearfix {
+	overflow: auto;
+}
+
 .content {
 	background: #fff;
 	margin: 20px auto;
@@ -41,5 +45,28 @@ p {
 	width: 960px;
 	@media screen and (max-width: 960px){
 		width: 90%;
+	}
+}
+
+.navbar {
+	width: 100%;
+	height: auto;
+	background: blue;
+	padding: 5px 10px;
+	.nav_inner {
+		width: 960px;
+		margin: 0px auto;
+		ul li {
+			float: left;
+			background: orange;
+			width: 50px;
+			padding: 5px;
+			margin-right: 10px;
+			color: #000;
+			border-radius: 5px;
+		}
+		@media screen and (max-width: 960px){
+			width: 90%;
+		}
 	}
 }
