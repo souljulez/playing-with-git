@@ -97,7 +97,8 @@ p {
       padding: 5px;
       margin-right: 10px;
       color: #000;
-      border-radius: 5px; }
+      border-radius: 5px;
+      border: 1px solid #fff; }
     @media screen and (max-width: 960px) {
       .navbar .nav_inner {
         width: 90%; } }
