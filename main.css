@@ -88,9 +88,9 @@ p {
   background: blue;
   padding: 5px 10px; }
   .navbar .nav_inner {
-    width: 960px;
+    width: 1020px;
     margin: 0px auto; }
-    .navbar .nav_inner ul li {
+    .navbar .nav_inner .tab {
       float: left;
       background: orange;
       width: 50px;
@@ -99,7 +99,7 @@ p {
       color: #000;
       border-radius: 5px;
       border: 1px solid #fff; }
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 1020px) {
       .navbar .nav_inner {
         width: 90%; } }
 
