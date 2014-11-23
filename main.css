@@ -69,7 +69,7 @@ p {
     p a:hover {
       text-decoration: underline; }
 
-.clearfix {
+.content, .navbar .nav_inner {
   overflow: auto; }
 
 .content {

@@ -33,7 +33,7 @@ p {
 	}
 }
 
-.clearfix {
+%clearfix {
 	overflow: auto;
 }
 
@@ -41,6 +41,7 @@ p {
 	background: #fff;
 	margin: 20px auto;
 	padding: 20px;
+	@extend %clearfix;
 	border-radius: 10px;
 	width: 960px;
 	@media screen and (max-width: 960px){
@@ -56,6 +57,7 @@ p {
 	.nav_inner {
 		width: 1020px;
 		margin: 0px auto;
+		@extend %clearfix;
 		.tab {
 			float: left;
 			background: orange;
