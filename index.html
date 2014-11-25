@@ -1,25 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="main.css" type="text/css">
+	<meta charset="utf-8"></meta>
+	<meta content="width=device-width, initial-scale=1" name="viewport"></meta>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta>
+	<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/edited-bootstrap.css" type="text/css"></link>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	<title>I'm just messin' around</title>
 </head>
 <body>
-	<div class="navbar">
-		<div class="nav_inner clearfix">
-			<div class="tab">Tab 1</div>
-			<div class="tab">Tab 2</div>
-			<div class="tab">Tab 3</div>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Fire Brand</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">Services</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio <span class="caret"></span></a>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	            <li class="divider"></li>
+	            <li><a href="#">One more separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="wide">
+		<div class="page-header container-center clearfix">
+			<img class="pull-right img-responsive img-rounded img-no-float" src="img/dv_pic.jpg" >
+			<h1>I'm just messin' around</h1>
+			<p>This is a line of text, yo.</p>
+			<br>
+			<h2>Second header</h2>
+			<p>More dummy text to fill up this dummy file.</p>
+			<p><a href="#">See more amazing stuff here.</a></p>
 		</div>
 	</div>
-	<div class="content clearfix">
-		<img class="imgRight" src="img/dv_pic.jpg" >
-		<h1>I'm just messin' around</h1>
-		<p>This is a line of text, yo.</p>
-		<br>
-		<h2>Second header</h2>
-		<p>More dummy text to fill up this dummy file.</p>
-		<p><a href="#">See more amazing stuff here.</a></p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<h3>Here is a thing.</h3>
+				<img class="img-circle img-headline" src="img/mos-def.jpg">
+				<p><strong>Yasiin Bey</strong> (born Dante Terrell Smith; December 11, 1973), better known by his former stage name <strong>Mos Def</strong>, is an American hip hop recording artist, actor, and activist from Brooklyn, New York City, New York. Best known for his music, Mos Def embarked on his hip hop career in 1994, alongside his siblings in the short-lived rap group Urban Thermo Dynamics (UTD), after which he appeared on albums by Da Bush Babees and De La Soul. He subsequently formed the duo Black Star, alongside fellow Brooklyn-based rapper Talib Kweli, and released their eponymous debut album in 1998. He was a major force in late-1990s underground hip hop while under Rawkus Records. As a solo artist, he has released the albums Black on Both Sides in 1999, The New Danger in 2004, True Magic in 2006, and The Ecstatic in 2009.</p>
+			</div>
+			<div class="col-md-4 text-center">
+				<h3>Here is another thing.</h3>
+				<img class="img-circle img-headline" src="img/CB.jpg">
+				<p>The <strong>Chicago Bears</strong> are a professional American football team based in Chicago, Illinois. They are members of the North Division of the National Football Conference (NFC) in the National Football League (NFL). The Bears have won nine NFL Championships (eight pre-merger, and one Super Bowl). The Bears hold the NFL record for the most enshrinees in the Pro Football Hall of Fame, with 27 members, and the most retired jersey numbers (15). The Bears have also recorded more regular season and overall victories than any other NFL franchise. The franchise recorded its 700th win on November 18, 2010.</p>
+			</div>
+			<div class="col-md-4 text-center">
+				<h3>Here is something else.</h3>
+				<img class="img-circle img-headline" src="img/Richard1.jpg">
+				<p>Web developer extraordinaire, <strong>J. Richard Zili</strong>, was born of a virgin under a solar eclipse and a meteor shower.  His supernatural abilities were apparent from an early age when, at age 6, he single-handedly stopped the zombie outbreak of 2015.  He started designing the world's greatest websites at the age of 15, and by his 21st birthday, Richard was the CEO of a multibillion-dollar company, <strong>Deez Nutz</strong>.  He is heavily consulted for his web development expertise and his amazing awesomeness.  Currently he resides on Titan, a moon of Saturn, where he crochets and builds supercomputers in his spare time.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="text-center"><img class="img-rounded" src="img/dv_pic.jpg"><p class="caption">Images for dayz</p></div>
+			</div>
+			<div class="col-md-6">
+				<p>What we have here is a failure to communicate.  I want you to tear this ship apart.  I want them found.  I want them alive!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="text-center">
+				<h6>&copy; 2014 JRZ Design</h6>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
